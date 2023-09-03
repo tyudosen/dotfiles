@@ -26,11 +26,26 @@ return {
   },
   { "nvim-telescope/telescope-file-browser.nvim" },
 
-  { 'nvim-tree/nvim-web-devicons' },
+  { 'nvim-tree/nvim-web-devicons' }, --- File icons
   { 'akinsho/bufferline.nvim',                   version = "*" },
   { 'norcalli/nvim-colorizer.lua' },
   {
     'stevearc/oil.nvim',
     opts = {},
-  }
+  },
+  {
+    'nvimdev/lspsaga.nvim',
+  }, --- LSP UIs
+  {
+    'jose-elias-alvarez/null-ls.nvim'
+  }, --- Use Neovim as a language server to inject LSP diagnostics, code actions, and more via Lua
+  {
+    'MunifTanjim/prettier.nvim'
+  }, --- Prettier plugin for Neovim's built-in LSP
+  {
+    'lewis6991/gitsigns.nvim'
+  },
+  { 'dinhhuy258/git.nvim' },
+  { 'akinsho/toggleterm.nvim', version = "*", config = true },
+  { 'sindrets/diffview.nvim' }
 }
