@@ -47,5 +47,9 @@ return {
   },
   { 'dinhhuy258/git.nvim' },
   { 'akinsho/toggleterm.nvim', version = "*", config = true },
-  { 'sindrets/diffview.nvim' }
+  { 'sindrets/diffview.nvim' },
+  {
+    "williamboman/mason.nvim"
+  },
+  { "williamboman/mason-lspconfig.nvim" }
 }
